@@ -13,10 +13,10 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    organization = "<YOUR_TERRAFORM_ORG>"
+    organization = "test-sentineltest031"
 
     workspaces {
-      name = "sentinel-example"
+      name = "test-hostagent"
     }
   }
 
